@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266c3386f9f038c4f8e68baaa5e4bc93, type: 3}
+  m_Name: Hyperopia
+  m_EditorClassIdentifier: 
+  sourceMesh: {fileID: 4300000, guid: d1a2340cf27678641a9e1925fa83995c, type: 2}
+  spherePower: 5
+  cylinderPower: 0
+  cylinderAxis: 180
+  refractiveIndex: 1.6
+  baseCurve: 4
+  centerThicknessMm: 1.5
+  minimumEdgeThicknessMm: 1
+  forwardAxis: 0
+  opticalCenterMm: {x: 0, y: 0}
+  subdivision: 2
+  edgeSegments: 1
+  preserveSourceFrontShape: 0
+  refractive: 1
+  apparentDepthMm: 12
+  outputFolder: Assets/PrescriptionLens/Generated
